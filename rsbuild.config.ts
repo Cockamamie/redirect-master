@@ -7,7 +7,8 @@ export default defineConfig({
   ],
   source: {
     entry: {
-      index: './src/index.tsx'
+      popup: './src/Popup/index.tsx',
+      app: './src/App/index.tsx'
     },
   },
   tools: {
