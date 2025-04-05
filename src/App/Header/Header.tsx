@@ -1,15 +1,17 @@
 import { ColorModeButton } from 'components/ui/ColorMode.tsx';
 import Menu from 'App/Header/Menu.tsx';
-import './Header.css'
+import { Container, Flex } from '@chakra-ui/react';
 
 export default function Header() {
   return (
     <header>
-      <div className="logoContainer"></div>
-      <div className="menuContainer">
-        <Menu />
-      </div>
-      <ColorModeButton />
+      <Flex justifyContent="space-between">
+        <Container></Container>
+        <Container>
+          <Menu />
+        </Container>
+        <ColorModeButton />
+      </Flex>
     </header>
   );
 }

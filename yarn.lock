@@ -425,6 +425,11 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@lmcd/mock-storagearea@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@lmcd/mock-storagearea/-/mock-storagearea-0.1.1.tgz#02ebe0c1c0055138912e880bb4e392001f3aefd3"
+  integrity sha512-5FiOY1XezVC5EjAtiG5QdTBVk6H9xGE24h2JA2z3x2rQa+SmDFGGnWHdxVOARmGhi9t/MyHbkxFWRz4zaonXSg==
+
 "@module-federation/error-codes@0.11.2":
   version "0.11.2"
   resolved "https://registry.yarnpkg.com/@module-federation/error-codes/-/error-codes-0.11.2.tgz#880cbaf370bacb5d27e5149a93228aebe7ed084c"

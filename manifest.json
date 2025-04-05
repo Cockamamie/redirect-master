@@ -7,6 +7,7 @@
     "default_icon": "assets/icon.png"
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ]
 }

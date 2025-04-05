@@ -7,8 +7,6 @@ export default function Menu() {
         <Tabs.Trigger value="replace">
           Replace
         </Tabs.Trigger>
-      </Tabs.List>
-      <Tabs.List>
         <Tabs.Trigger value="settings">
           Settings
         </Tabs.Trigger>
