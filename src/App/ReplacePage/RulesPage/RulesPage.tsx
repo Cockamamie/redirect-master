@@ -4,7 +4,10 @@ import { Accordion, For } from '@chakra-ui/react';
 
 export default function RulesPage({rules}: {rules: ReplaceRule[]}) {
   return (
-    <Accordion.Root value={undefined} onValueChange={() => {}}>
+    <Accordion.Root
+      style={{maxWidth: '60%'}}
+      value={undefined}
+      onValueChange={() => {}}>
       <For each={rules}>
         {(item, index) => (
           <ReplaceRuleItem key={index} rule={item}/>
